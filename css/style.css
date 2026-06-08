@@ -1176,5 +1176,28 @@ textarea.form-control{
 .heading-color{
     color:#2C4F77 !important;
 }
+.heading-color{
+    color:#1f3c4f;
+}
+
+.row.py-5{
+    margin-bottom:40px;
+}
+
+.row.py-5:hover{
+    transform:translateY(-3px);
+    transition:.3s;
+}
+
+ul li{
+    line-height:1.8;
+}
+
+.badge{
+    font-size:14px;
+    font-weight:600;
+}
+
+
 
 
