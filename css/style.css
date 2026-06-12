@@ -1533,6 +1533,131 @@ ul li{
 }
 
 }
+.mission-section{
+    background:#f8fafc;
+}
+
+.mission-badge{
+    background:#d1fae5;
+    color:#047857;
+    padding:10px 25px;
+    border-radius:30px;
+    font-weight:600;
+}
+
+.section-title{
+    font-size:42px;
+    font-weight:700;
+    color:#0f172a;
+}
+
+.mission-grid{
+    position:relative;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+    max-width:1300px;
+    margin:auto;
+}
+
+.mission-card{
+    position:relative;
+    overflow:hidden;
+    border-radius:30px;
+    height:320px;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.mission-card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.card-label{
+    position:absolute;
+    left:20px;
+    top:20px;
+    background:#fff;
+    padding:15px 25px;
+    border-radius:50px;
+    font-size:22px;
+    font-weight:600;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.card-label i{
+    color:#10b981;
+    margin-right:10px;
+}
+
+.mission-center{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    z-index:10;
+}
+
+.mission-circle{
+    width:420px;
+    height:420px;
+    background:#fff;
+    border-radius:50%;
+    padding:50px;
+    text-align:center;
+    box-shadow:0 20px 50px rgba(0,0,0,.15);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.mission-icon{
+    width:80px;
+    height:80px;
+    background:#10b981;
+    color:#fff;
+    border-radius:50%;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:35px;
+}
+
+.mission-circle h3{
+    margin-top:20px;
+    color:#047857;
+    font-weight:700;
+}
+
+.mission-circle p{
+    margin-top:15px;
+    color:#64748b;
+    line-height:1.8;
+}
+
+/* Mobile */
+
+@media(max-width:991px){
+
+.mission-grid{
+    grid-template-columns:1fr;
+}
+
+.mission-center{
+    position:static;
+    transform:none;
+    margin:30px auto;
+}
+
+.mission-circle{
+    width:100%;
+    max-width:500px;
+    height:auto;
+    border-radius:30px;
+}
+}
 
 
 
