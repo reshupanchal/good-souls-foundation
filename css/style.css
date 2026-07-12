@@ -1658,6 +1658,22 @@ ul li{
     border-radius:30px;
 }
 }
+.footer-link{
+    color:#2c4f77;
+    text-decoration:none;
+    display:block;
+    margin-bottom:10px;
+    transition:.3s;
+}
+
+.footer-link:hover{
+    color:#2c4f77;
+    padding-left:6px;
+}
+
+.bg-dark{
+    background:#ffffff !important;
+}
 
 
 
